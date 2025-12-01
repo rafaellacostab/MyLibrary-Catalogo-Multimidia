@@ -1,0 +1,82 @@
+.details-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff13;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px #8800ff;
+  font-family: sans-serif;
+}
+
+.details-header {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.details-image {
+  width: 260px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.details-info {
+  flex: 1;
+}
+
+.details-title {
+  font-size: 28px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.details-meta {
+  color: #ff00a3;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.details-section {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.details-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+
+.btn-back,
+.btn-edit {
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-back {
+  color: #ffffff;
+}
+
+.btn-back:hover {
+  background: linear-gradient(135deg, #ffc800, #ff00a3, #8800ff);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 8px #8800ff39;
+}
+
+.btn-edit {
+  color: #ffffff;
+}
+
+.btn-edit:hover {
+  background: linear-gradient(135deg, #ffc800, #ff00a3, #8800ff);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 8px #8800ff39;
+}

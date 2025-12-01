@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ffc800; 
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #ffc800;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ffc800, #ff00a3, #8800ff);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #1a1a22;
+}

@@ -1,0 +1,68 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; 
+  gap: 16px;
+}
+
+.controls button {
+  margin-right: 12px;
+  padding: 8px 18px; 
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ffc8003e, #ff00a23e, #8800ff4a);
+  border: 2px solid #8800ff39;
+  color: #C1C4D6;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.controls button:hover {
+  color: #ffffff; 
+  border-color: #ffc800;
+  box-shadow: 0 0 10px #ffc800; 
+}
+
+.controls .active {
+  background: linear-gradient(135deg, #ffc800, #ff00a3, #8800ff); 
+  color: white;
+  border-color: #ffc800;
+  box-shadow: 0 0 10px  #ffc800;
+}
+
+.controls input {
+  background: linear-gradient(135deg, #ffc8003e, #ff00a23e, #8800ff4a);
+  border: 2px solid #8800ff39;
+  color: #ffffff;
+  padding: 12px; 
+  border-radius: 8px;
+  width: 280px; 
+}
+
+.controls input:focus {
+  border-color: #ffc800; 
+  box-shadow: 0 0 10px #ffc800; 
+  outline: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); 
+  gap: 24px; 
+}
+
+.catalogoTitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 18px; 
+    color: #ffffff;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; 
+  gap: 16px;
+}
